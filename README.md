@@ -1,15 +1,24 @@
-# Network-anamoly-detection
-This project focuses on network anomaly detection, specifically the development of a network intrusion detector. The dataset used for this project is the KDD Cup 1999 dataset, which can be found at (https://archive.ics.uci.edu/ml/datasets/kdd+cup+1999+data).
+# Network Anomaly Detection
 
-In order to build an effective network intrusion detector, I implemented eight different models, each with its own unique approach. These models include:
+A machine learning project aimed at developing a network intrusion detection system using the KDD Cup 1999 dataset.
 
-KNN Model
-Linear SVM Model
-Quadratic SVM Model
-Linear Discriminant Analysis Classifier Model
-Quadratic Discriminant Analysis Classifier
-Naive Bayes Model
-Decision Tree Classifier Model
-Logistic Regression
+## Dataset
+The dataset is publicly available at [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/kdd+cup+1999+data).
 
-By utilizing these various models, I aimed to improve the accuracy and effectiveness of the network intrusion detection system. Each model offers its own strengths and capabilities in identifying and classifying network anomalies. The ultimate goal of this project was to develop a robust and reliable system that can detect and mitigate network intrusions effectively.
+## Models Implemented
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM) - Linear and Quadratic
+- Linear Discriminant Analysis (LDA)
+- Quadratic Discriminant Analysis (QDA)
+- Naive Bayes
+- Decision Tree
+- Logistic Regression
+
+Each model contributes to a comprehensive system designed to accurately identify network anomalies.
+
+## Objective
+To create a high-accuracy system for detecting and addressing network intrusions.
+
+## Usage
+Instructions on how to use the models with the dataset are provided within the repository.
+
